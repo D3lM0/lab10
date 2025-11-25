@@ -17,7 +17,6 @@ Modify the application in such a way that those settings are read from the suppl
 The default configuration file is available in the path `src/main/resources/config.yml`.
 
 ### Suggestions
-
 * Use the resource loader to load the file provided in res.
   You can wrap the stream with a `StreamReader` and a `BufferedReader` to get the contents and proceed line by line.
 * The file (see the example in the "res" folder) is a [standard YAML file](https://en.wikipedia.org/wiki/YAML).
